@@ -1,7 +1,7 @@
 function insert(num){
    var numero = document.getElementById('resultado').innerHTML;
-   if(numero == *){numero = x} else{
-   document.getElementById('resultado').innerHTML = numero + num;}
+   document.getElementById('resultado').innerHTML = numero + num;
+
 }
 
 function clean(){
