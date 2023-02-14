@@ -17,5 +17,5 @@ function result(){
     var result = document.getElementById('resultado').innerHTML;
     if(result){
         document.getElementById('resultado').innerHTML = eval(result)
-    }
+    } else {document.getElementById('resultado').innerHTML = "error"}
 }
